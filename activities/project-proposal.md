@@ -100,4 +100,117 @@ AyoNa is intended for boarding house owners, caretakers, and tenants (boarders),
 3. Repair cost and materials management, such as recording prices, receipts, reimbursements, or parts inventory, is excluded. “Parts purchased, waiting for installation” is only a status that tells the tenant a repair is not yet finished.  
 4. Repairman accounts, job acceptance, and automatic dispatch are excluded because the caretaker will contact repairmen manually.  
 5. Automated scheduling, reminders, and escalation of unresolved complaints are excluded because they require more development and testing time than one semester allows.  
-6. Integration with external systems, such as payment services or government and utility providers, is excluded be
+6. Integration with external systems, such as payment services or government and utility providers, is excluded because the team has neither the authority nor the budget to implement it.
+
+### Expected deliverables
+
+7. The team plans to deliver a working prototype for mobile devices covering the five in-scope capabilities, together with requirements and design documentation that includes user stories, wireframes, and the system design. The team will also provide test cases with their results, a usability test conducted with the prospective participants (boarders and a caretaker or owner), and recordable applications and push notifications are excluded because the prototype will run only as a mobile web page.
+
+ of the sample repair-request data used in the pilot and how it was obtained.
+
+### Constraints
+
+| Constraint | Effect on the project | How the team will respond |
+| :---- | :---- | :---- |
+| The project is limited to one semester and a student team.  | The scope has to be small enough to be built, tested, and evaluated within the term.  | The team will limit the pilot to the five capabilities above and to one boarding house, and list everything else as future work.  |
+| The team does not control how caretakers and repairmen work.  | Repairmen will not use the app, so statuses depend on the caretaker updating each step accurately.  | The team will keep the caretaker’s workflow short, with one action per step, and show the date and time of each status update so that tenants can see how current it is.  |
+| Participation depends on the owner, caretaker, and tenants of the pilot boarding house.  | Without their cooperation, the prototype cannot be tested under real conditions.  | The team will secure the owner’s consent early and explain the purpose of the pilot to all participants.  |
+
+### Assumptions and dependencies
+
+| Assumption or dependency | Why it matters | How to check or address it |
+| :---- | :---- | :---- |
+| The team can secure the cooperation of at least one boarding house owner and caretaker.  | The prototype cannot be tested realistically without actual users and repair requests.  | The team will request permission early through a letter or meeting with the owner and confirm which rooms and tenants will take part.  |
+| All caretakers, including those on other shifts, will use the app and have access to it.  | The shared list only removes handoff problems if every caretaker records and reads complaints there instead of on paper notes.  | The team will confirm with the owner which caretakers will take part and include caretakers from different shifts in the usability test.  |
+| Caretakers will update statuses promptly and honestly.  | If statuses are outdated, tenants will lose trust in the app after only a few missed updates.  | The team will test the caretaker workflow during the usability test and revise any steps that cause delays or confusion.  |
+| Users have smartphones with Wi-Fi or mobile data.  | The prototype runs in a mobile browser and cannot be used without a connection.  | The team will include a connectivity question in the initial survey and test the prototype on the devices that users commonly use.  |
+
+### Success indicators
+
+| Success indicator | Proposed evaluation method |
+| :---- | :---- |
+| Users find it easier to report and track repairs with the app than with their usual way (telling the caretaker in person and relying on memory).  | The team will run a usability test with tenants and a caretaker. Tenants will report a fault and check its status using the app and then using their usual way. The caretaker will find the unresolved complaints and the oldest request using the app and then from memory or notes. The team will compare the time taken and the number of follow-ups or missed requests for each way.  |
+| Users find the app worth using and would keep using it.  | After the pilot, tenants and the caretaker will answer a short satisfaction questionnaire that asks whether the app was easy to use, whether repair requests were easier to follow, and whether they would continue using it. The team will report the results only after the questionnaire has been done.  |
+
+## 6\. Review and Next Steps
+
+### Change made after reviewing the proposal
+
+- Before review: ChairUp, a campus study spot finder that showed vacant CCS classrooms based on room schedules.  
+- After review: AyoNa, a mobile/web app that lets boarders report broken fixtures and track each repair, while caretakers see one shared list of complaints per room.  
+- Reason: The study spot finder depended on room schedules from department offices that may not match actual room use because of cancellations, makeup classes, and events. The boarding house repair problem has a clear cause (requests exist only in caretakers' memory or handwritten notes), an identifiable group of users, and stakeholders the team can reach for interviews and testing. Testing also does not depend on outside events, since repair requests happen regularly.
+
+### Biggest remaining risk
+
+The app depends on the boarding house owner agreeing to the pilot and on the delays that start with the owner, but the team has not interviewed an owner yet. What the team knows about the owner comes only from caretakers' accounts: that the owner approves and buys parts and may be out on errands when complaints come in. Whether the owner would accept the pilot, how the owner decides repair priorities and budgets, and whether the owner would act on what the app shows are still assumptions. If delays happen at the approval stage, the app can show them but cannot fix them, and without the owner's consent the prototype cannot be tested under real conditions. The team will interview an owner early, request permission for the pilot, and show the date and time of each status update so tenants can see when a request has stalled.
+
+### Three unanswered questions
+
+1. When caretakers inform you of broken fixtures, how do you decide maintenance priorities and approve the purchase of spare parts or technician fees?  
+2. Will boarders use the app to report and check repairs instead of telling the caretaker in person?  
+3. Will a boarding house owner agree to host the pilot?
+
+## 7\. Member Contribution Record
+
+| Member | Ideas or analysis contributed | Drafting or review contribution |
+| :---- | :---- | :---- |
+| James Ralf P. Canonigo | I contributed three problem ideas in the brainstorming record: the lack of a lost-and-found at crowded Iligan events like the Diyandi festival, jeepneys skipping stops during rush hour, and the damaged Tambacan hanging bridge. Joined the team discussion in narrowing down to the study spot problem. | I drafted the Proposed Solution (Section 3\) and Section 6 (Review and Next Steps), including the change made after review, the biggest remaining risk, and the three unanswered questions. Reviewed the proposal for consistency between Sections 2, 3, and 5 and helped update Section 2 to match the narrowed scope. |
+| Calvyn Kent L. Adeva | I contributed four candidate problems drawn from my own experience, which were the coordination of donations during disasters, the missed water gallon and LPG deliveries, the lack of places to go in Iligan beyond the well-known tourist spots, and the absence of scam protection in the buying and selling of used electronics. I also helped narrow these down by ranking the problems per member, which let the team compare each person’s priorities, see which problems were most commonly favored, and settle on one that was both meaningful and feasible to address within the semester. | I drafted Section 5, which defines the initial scope, covering the intended users and setting, the in-scope and out-of-scope capabilities, the constraints, the assumptions and dependencies, and the success indicators. I also reviewed Sections 1 and 2 and helped revise them so that they matched what the instructions and guidelines asked for. |
+| Obrenah Z. Mendoza | I contributed five candidate problems in Section 1 stemming from observation and personal experiences.I also tried to participate, exchanging discourse when it comes to narrowing down the three shortlisted problems and I deliberately replied to necessary questions, discussions that needed my cooperation. | I drafted the Stakeholder List, which encompasses four relevant  stakeholder roles or groups we have identified that are involved in the core problem we are trying to solve, together with their underlying needs and questions the team wants to consult with them. I also helped in drafting ideas for fellow members who needed clarification in the proposed solution and initial scope sections. |
+| Kurt Renzo H. Azur | I contributed four problem ideas during brainstorming, each from everyday situations around campus and the city. After the group chose the problem shortlist, I contributed to the analysis of the three candidate problems according to their benefit to users, feasibility concerns, and the team’s access to stakeholders. I also checked each candidate against the project criteria: an identifiable affected group, a useful version prototype that can be finished within the semester, and a demonstration that does not require sensitive personal data. |  I compiled the group’s brainstorming record. The members submitted their ideas in Cebuano in different formats, and I summarized each one in English, and organized it into the required table. I later reviewed the “basis of the idea” column and revised each entry to state whether it came from an observation, a source, or an assumption, keeping the original points intact. For the candidate problem comparison and selection section, I drafted the shortlist table, the selected problem statement, and the selection rationale, then revised the rationale against the criteria provided for the proposal. |
+
+## 
+
+## 
+
+## 8\. References
+
+Cullen, E. (2026, February 3). How to ask open-ended questions: 25 examples. *Mentimeter*. https\://www\.mentimeter.com/blog/business/open-ended-questions  
+M, T. (n.d.). *Software development stakeholders: Complete list for software projects*. stakeholdermap.com. https\://www\.stakeholdermap.com/software-development-stakeholders.php\#quick-list
+
+## 9\. Team AI Use Declaration
+
+Select one option:
+
+- [ ] No generative AI tools were used by any member in preparing this submission.  
+- [x] One or more members used generative AI tools. Details are provided below.
+
+| Member who used AI | Tool | Purpose and sections assisted | How output was checked or revised |
+| :---- | :---- | :---- | :---- |
+| Kurt Renzo H. Azur | Claude | Brainstorming Record and the Three Shortlisted Problems table. I used AI to summarize and humanize the generated output of the AI model (Opus 5.5). | I carefully reviewed each generated output, correcting the wrong formats and rewriting the output so that the transition between sentences and paragraphs is smooth. I also manually edited each output such that it follows and answers the guiding questions on how to write each section. |
+
+### Main prompts or interaction summary
+
+Kurt Renzo H. Azur
+
+- Claude was used to summarize and humanize the generated outputs of the AI model that I used. AI was utilized to review and rewrite the correct information regarding the summarized content. I manually edited each generated output such that it correctly follows and answers the guiding questions for each project proposal section.
+
+We acknowledge that AI-generated suggestions are not evidence of actual stakeholder interviews, feedback, or verified community needs. We remain responsible for the accuracy and explainability of this submission.
+
+## 10\. Team Confirmation
+
+We confirm that this document reflects our team's agreed-upon proposal. All members listed below reviewed the final version, and each member will upload the same Markdown file to their personal CSC181 repository.
+
+| Member | Reviewed final version |
+| :---- | :---- |
+| Calvyn Kent L. Adeva | Yes |
+| James Ralf P. Canonigo | Yes |
+| Obrenah Z. Mendoza | Yes |
+| Kurt Renzo H. Azur | Yes |
+
+## Submission Checklist
+
+- [x] Each member contributed at least two problem ideas.  
+- [x] Three candidate problems were compared.  
+- [x] The selection rationale is included.  
+- [x] The problem statement contains 100–150 words.  
+- [x] The proposed solution is included.  
+- [x] Relevant stakeholders and consultation questions are identified.  
+- [x] The scope contains 3–5 capabilities and at least three exclusions.  
+- [x] Constraints, assumptions, and success indicators are included.  
+- [x] A review change and three unanswered questions are documented.  
+- [x] Contributions, references, and AI use are declared.  
+- [x] All members reviewed the same final document.  
+- [x] Each member saved the file as `activities/project-proposal.md`.  
+- [x] Each member committed and pushed their copy to their personal repository.  
+- [x] Each member submitted their own GitHub file link through MOLE.

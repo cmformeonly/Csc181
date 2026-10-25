@@ -104,9 +104,7 @@ AyoNa is intended for boarding house owners, caretakers, and tenants (boarders),
 
 ### Expected deliverables
 
-7. The team plans to deliver a working prototype for mobile devices covering the five in-scope capabilities, together with requirements and design documentation that includes user stories, wireframes, and the system design. The team will also provide test cases with their results, a usability test conducted with the prospective participants (boarders and a caretaker or owner), and recordable applications and push notifications are excluded because the prototype will run only as a mobile web page.
-
- of the sample repair-request data used in the pilot and how it was obtained.
+The team plans to deliver a working prototype for mobile devices covering the five in-scope capabilities, together with requirements and design documentation that includes user stories, wireframes, and the system design. The team will also provide test cases with their results, a usability test conducted with the prospective participants (boarders and a caretaker or owner), and recordable applications and push notifications are excluded because the prototype will run only as a mobile web page.
 
 ### Constraints
 

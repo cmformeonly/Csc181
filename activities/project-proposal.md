@@ -32,7 +32,7 @@
 | Mendoza, Obrenah Z. | Checking whether campus event venues are available on a given date means visiting each option in person. | Student organizations and event organizers. | Going to each venue in person, or getting the number of the staff member with the key to ask about, view, or book it. | While looking for an SFD venue for September 19, the only option left was the COE Amphitheater, and only in the afternoon because the morning was already booked. |
 | Canonigo, James Ralf | Crowded Iligan events like the Diyandi festival have no lost-and-found desk or volunteers to handle lost items. | Event attendees who lose items, and people who find them. | Owners just hope to find their items again. There is no central place to report or claim them. | James noticed there was no lost-and-found at the fiesta despite the heavy crowds. |
 | Canonigo, James Ralf | During rush hour, some city-bound jeepneys skip Sabayle and the Plaza and go straight to Zoey so they can return to IIT faster. | Commuters from IIT, especially around 6 PM. | Some drivers ask whether anyone is going to Sabayle, the wet market, or Gaisano. Others just turn, and passengers have to walk to their destinations. | James’s own commuting experience. Taking shortcuts off the route may also be against the rules. |
-| Canonigo, James Ralf | With the Tambacan bridge under repair, people cross the hanging bridge, which has holes along its sides and sways when crowded. | Residents and students crossing at Tambacan. | Either detour via Petron Tubod and sit in Mahayahay traffic, or risk the hanging bridge. There is no channel for reporting damage. | James observed that the holes could be fixed quickly if barangay officials were alerted. |
+| Canonigo, James Ralf | With the Tambacan bridge under repair, people cross the hanging bridge, which has holes along its sides and sways when crowded. | Residents and students crossing at Tambacan. | Either detour via Petron Tubod and sit in Mahayahay traffic, or risk the hanging bridge. There is no channel for reporting damage. | James observed that the holes could be fixed quickly if barangay officials were alerted.- |
 
 ## 2\. Candidate Comparison and Selection
 
@@ -46,169 +46,58 @@
 
 ### Selected problem
 
-The team selected the lack of available study spots for students at MSU-IIT. During vacant periods, students who want to study in the library often find seats occupied by bags whose owners have left to go do something, whether to eat, run errands, or go to class. A post on the IIT Cats page raised this complaint and pointed out that students who can't find spots in the library to rest or study have very few options besides studying outside in the heat. Vacant classrooms could be an alternative, but students cannot tell which rooms are free or when the next class begins.
+The team selected the problem of broken amenities in boarding houses not being tracked or fixed promptly. When a light, faucet, or wire breaks, boarders report it verbally to the caretaker or landlord, and there is no record of pending repairs or the order in which they were requested. Caretakers keep track of these complaints from memory or from handwritten notes passed between shifts, so requests are easily forgotten or mixed up. Obrenah experienced this firsthand. Her light took a long time to fix, and when another boarder raised the same issue, the staff realized they had forgotten that boarder’s earlier request entirely. Because the staff then prioritized the boarder who claimed to have reported first, Obrenah waited even longer. Boarders are left following up again and again without knowing whether a repairman has been contacted or when the repair will happen. 
 
 ### Selection rationale
 
-We chose the study spot problem because it affects a large share of an identifiable group such as MSU-IIT students who need a place to study during vacant periods. A working solution would give them a clear benefit by reducing the time they spend searching for vacant classrooms for studying. Since we are MSU-IIT students ourselves, we can easily reach our stakeholders who are our classmates, the library staff, and department offices for interviews, surveys, and testing, and we can request classroom schedules from the relevant department offices on campus.
+We chose the boarding house repair problem because it affects an identifiable group, boarders who depend on the caretaker to get broken fixtures fixed, and because the cause is clear: repair requests exist only in the caretaker’s memory. A working solution would give both sides a direct benefit. Boarders could see the status of their report without following up in person, and caretakers would have an organized list of active complaints in the order they were received, so no request is overlooked. Obrenah is a boarder herself, and boarding houses around campus are easy for the team to reach, so we can interview and test the prototype with tenants, a caretaker, and an owner.
 
-Using the web development and interface design skills we learned from our coursework, we can complete a useful prototype showing classroom availability within the remaining semester. The system only needs room schedules, so it can be demonstrated without collecting sensitive personal data.
+Using the web development and interface design skills we learned from our coursework, we can complete a mobile web prototype covering reporting, status tracking, and the caretaker’s repair queue within the remaining semester. The system only needs room numbers, repair descriptions, and repairman contact details, so it can be demonstrated without collecting sensitive personal data. Testing also does not depend on outside events, since repair requests happen regularly in any boarding house.
 
-We set aside the delivery scheduler app idea because it depends on refill station owners agreeing to adopt it and would need weeks of delivery cycles to evaluate. We also set aside the disaster relief board because it requires outside verification and testing conditions that only occur during an actual disaster or relief drive.
+ We set aside the campus study spot finder because its vacancy information depends on room schedules that may not match actual room use, due to cancellations, makeup classes, and events, and because access to those schedules depends on department offices. We also set aside the delivery scheduler app idea because it depends on refill station owners agreeing to adopt it and would need weeks of delivery cycles to evaluate. Finally, we set aside the disaster relief board because it requires outside verification and testing conditions that only occur during an actual disaster or relief drive.
 
 ## 3\. Preliminary Project Proposal
 
 ### Working project title
 
-ChairUp
+AyoNa
 
 ### Problem statement
 
-MSU-IIT students who need a spot to study have difficulty finding one when library tables are occupied by bags left behind by students who went out and staying outdoors is not a comfortable alternative because of the heat. Vacant classrooms could be used instead, but students does not know what rooms are free or when the next class begins, so students depend on guessing the right room and time. As a result, students may go without a suitable study spot even when empty rooms exist. The project aims to help students find available study spaces, especially vacant classrooms, and know how long each will stay free within the campus. The team still needs to confirm how widespread this problem is, how students currently look for study spots, whether classroom schedules are accessible, and whether students are allowed to use vacant rooms.
+Boarders near MSU-IIT experience delays when broken fixtures such as lights, faucets, and ceiling fans are not repaired promptly after they report them. Currently, reports are made verbally and tracked from memory or handwritten notes passed between caretakers, so complaints can be forgotten, miss the next shift, or get mixed up. In one case, staff realized they had forgotten another boarder's earlier request, and fixing that one first delayed a boarder's own repair. Boarders then follow up repeatedly without updates, and a broken light disrupts studying. The project aims to give boarders and caretakers one shared, visible record of repair requests and their status within a boarding house. The team still needs to confirm how common this is across boarding houses, whether caretakers will keep statuses updated, and whether owners will take part
 
 ### Proposed solution
 
-ChairUp is a mobile web app that helps MSU-IIT students and faculty find a place to study between classes. Using copies of the CCS building's room schedules, it shows which classrooms are free at a chosen time and how long each will stay free, and it lists rooms about to become vacant so users can plan their trip. Users can filter rooms by comfort tags such as aircon, quiet, outlets, and shade, and can report a room as occupied when the schedule is wrong. A directory of study spots like the library, Meow Meow Park, and CCCM is also included, with comfort tags, hours, and locations but no vacancy status. This addresses the problem by replacing guesswork with schedule-based information, so students can find a suitable room without competing for library tables or waiting in the heat.
+AyoNa is a mobile/web app where boarders report broken fixtures with a short comment and photo, then follow each report through a step-by-step status tracker, from repairman contacted and parts purchased to estimated repair date, ongoing, and complete. Caretakers see one shared list of rooms with open complaints shown first, and can assign a repairman from a contact list and enter the agreed visit date and time, which boarders see as the estimated repair time. This addresses the problem by replacing memory and handwritten notes with a single record that every caretaker can see, so no request is forgotten and boarders can check progress without following up in person.
 
 ## 4\. Stakeholder List
 
 | Stakeholder role/group | Relationship to the project | Likely need or concern | Question to ask | Possible consultation method |
 | :---- | :---- | :---- | :---- | :---- |
-| College Students | Primary User | Students who prefer staying on campus between class intervals  need to find a vacant room or study spot without having to wander in the heat, and guessing unpredictable room schedules. | Can you share with me your experience the last time you searched for a study spot or a vacant classroom during a long break? How long did it take you to occupy a spot and what did you do when none were available?  | Short in-person interview/ Existing Evidence from Complaints or Facebook comments |
-| Department Secretary/ Officer assigned in Room Scheduling | Operator/Maintainer | They will be concerned if a system forces them to manually input class schedules in the system one by one. | How are classroom assignments tracked when a professor reschedules to a different room ? Are the changes immediately reflected in the master list or is it mostly handled verbally between students and professor?  | Short in-person interview |
-| Instructors/ Professors  | Affected Non-Users | Professors need to  start classes on time without having to wait for occupying students who are not under his/her class to pack-up and leave. | How do you handle situations when you arrive in a room occupied by students who are not in your class?  | Short in-person interview |
-| Department Chair/ College Dean | Sponsor/Regulator/Data Owner | They need to ensure classrooms are maintained, secured, and prevent laboratories from misuse. | What university rules, privacy policies and security concerns do we need to consider before we make classroom availability visible to the general student public ?   | Visit and inquire in College Department/ Dean’s Office |
+| Tenants/Boarders | Primary User | Needs to know the expected repair date and time for broken room fixtures without having to repeatedly follow up on pending complaints. Interviews showed waits of about a week with no updates, and one tenant avoided following up out of embarrassment.  | Can you walk me through the last time you reported a broken fixture? How did you report it, how long did it take to get fixed, and did you have to follow up repeatedly?   | Short in-person interview/ Existing Evidence from Complaints or Facebook comments / posts |
+| Caretaker/ Staff | Operator/Maintainer | Needs one shared list of complaints that every caretaker sees, so a complaint does not depend on which caretaker received it or on a paper note. Also needs to track whether parts are bought and installed.   | Walk me through how you currently record and prioritize repair requests when multiple boarders report issues at once, and how do you track what repair is still pending and what room complaint is still active?  | Short in-person interview |
+| Boarding House Owner | Sponsor/Customer | Based on caretakers’ accounts, not yet confirmed: approves and buys parts, is often out on errands, and is concerned when repairs stall.  | When caretakers inform you of broken fixtures, how do you decide maintenance priorities and approve the purchase of spare parts or technician fees ? | Short in-person interview |
+| Repairmen/ Technicians | Affected Non-users | Based on caretakers’ accounts, not yet confirmed: needs a clear description of the fault and an agreed visit date.  | When a caretaker calls you for a repair, how do you agree on a schedule, and what usually causes delays in arriving?   | Short in-person interview |
 
 ## 5\. Initial Scope
 
 ### Intended users and setting
 
-ChairUp is intended for undergraduate and graduate students who need a place to study between classes, and it will be accessed through a mobile web browser on their own phones, with the pilot covering the classrooms of the CCS building and extended to other buildings only if their schedule data becomes available.
+AyoNa is intended for boarding house owners, caretakers, and tenants (boarders), with repairmen as external contacts who are not required to use the app. Caretakers include those working different shifts, all using the same shared record of complaints. The app will be accessed through a mobile web browser on users’ own phones. The pilot will cover one participating boarding house and will be extended to other establishments only if their owners agree to take part.
 
 ### In-scope capabilities
 
-1. Users can select a time and see which CCS classrooms are free according to the schedule, together with how long each room stays free, so that they know whether the room is worth walking to.  
-2. Users can view rooms that are about to become vacant along with the time remaining before the current class ends, so that they can plan their movement before the room opens up.  
-3. Users can report a room as occupied whenever the schedule shows it as free but it is actually in use, so that other students are warned before they make the same trip.  
-4. Users can view comfort tags such as aircon, quiet, outlets, and shaded on each classroom and filter the results by what they need, so that the room they choose is suitable and not merely empty.  
-5. Users can browse a directory of study spots such as the library, Meow Meow Park, and CCCM to see their comfort tags, hours, and location, while no vacancy or occupancy status is shown for these venues because they have no fixed schedule to base it on.
+1. Tenants can report a broken light, faucet, wire, or similar fault, with a comment and an attached image, so that the caretaker has the details needed to act on it. Reporting through the app also spares tenants from following up in person, which some find embarrassing.  
+2. Tenants can view a history of their previous and ongoing reports, each with its date reported and current status, so that they do not need to follow up in person.  
+3. Tenants can follow each report through a step-by-step status tracker (repairman contacted, estimated repair date and time, parts purchased and waiting for installation when needed, ongoing, repair complete) and can mark the report as resolved with an optional 5-star rating and short review, so that they know what is happening and can confirm that the repair was actually done.  
+4. Caretakers can view one shared list of all rooms, visible to every caretaker, as boxes listing each room’s complaints with the date reported and status. Rooms that have open complaints are highlighted and shown first, and the list can be sorted by date reported, type of complaint, or status, so that no request is forgotten or overlooked, and so that a complaint does not depend on which caretaker received it, a paper note, or memory of which is oldest.  
+5. Caretakers can process a complaint by selecting a repairman from a contact list, assigning the agreed visit date and time (which becomes the tenant’s estimated repair date and time), marking that parts have been purchased when the repair needs them, marking the repair as ongoing once the repairman arrives, and marking it complete so that the tenant can verify it.
 
 ### Out-of-scope capabilities
 
-1. Live or predicted crowd heat maps are excluded because they depend on an active userbase or verified traffic data, and neither is available to the team this semester.  
-2. Vacancy or occupancy status for venues without fixed schedules, such as the library, lounges, Meow Meow Park, CCCM, and other establishments, is excluded because any figure shown would be a guess.  
-3. Cafes and establishments with pricing details such as price range and minimum order are excluded to keep the pilot focused on rooms and spots that students can use without spending.  
-4. Native mobile applications and push notifications are excluded because the prototype will run only as a mobile web page.  
-5. Coverage beyond the CCS building is excluded so that the schedule data can be collected and checked properly for a small number of rooms.  
-6. Hardware, school system integration, and official room booking, including sensors, QR check-in, Wi-Fi analytics, and student login, are excluded because the team has neither the authority nor the budget to implement them.
-
-### Expected deliverables
-
-The team plans to deliver a working mobile web prototype covering the five in-scope capabilities, together with requirements and design documentation that includes user stories, wireframes, and the system design. The team will also provide test cases with their results, a usability test conducted with the prospected student participants, and the CCS classroom schedule dataset used in the pilot with the means of which on how it was obtained.
-
-### Constraints
-
-| Constraint | Effect on the project | How the team will respond |
-| :---- | :---- | :---- |
-| The team does not control room schedules or school data. | Vacancy results depend on schedule copies that may miss cancellations, makeup classes, and events. | The team will label results as free per schedule, provide a report as the occupied option so that users can correct errors, and show when each entry was last verified. |
-| The project is limited to one semester and a student team. | The scope has to be small enough to be built, tested, and evaluated within the term. | The team will limit the pilot to the CCS building and five capabilities, and list everything else as future work. |
-| There is no active user base at launch. | Crowd reports would be too sparse to serve as a reliable source of vacancy information. | The team will base vacancy on schedule data and treat user reports only as corrections to that data. |
-
-### Assumptions and dependencies
-
-| Assumption or dependency | Why it matters | How to check or address it |
-| :---- | :---- | :---- |
-| The team can obtain class schedules for the CCS rooms from the department heads or the Dean’s Office. | The vacancy feature cannot work without this data, so the whole prototype depends on it. | The team will request the data early through a letter to the dean or the department heads and will narrow the pilot to the rooms on the 2nd and 3rd floor of the CCS building. |
-| The schedules are accurate enough to be useful to users. | A room wrongly shown as free or vacant would cause users to lose trust in the app after only a few bad trips. | The team will visit a sample of CCS rooms and compare what it finds against the app before the usability test begins. |
-| Users have smartphones with campus Wi-Fi or mobile data. | The prototype that we are envisioning runs on a mobile browser and cannot be used without a connection. | The team will include a connectivity question in the initial survey and test the prototype on devices that users would commonly use. |
-
-### Success indicators
-
-| Success indicator | Proposed evaluation method |
-| :---- | :---- |
-| Rooms shown as free by the app are actually free when users arrive. | Team members will visit a sample of CCS rooms at different times on different days, record whether each one is truly vacant, and compare those observations against what the app displayed, and accuracy will be shared only after the checks has been done. |
-| Users need less effort to find a place to study or work when using the app. | The team will run a usability test in which the student participants look for a room with ChairUp and again with their usual method, then compare the time taken and the number of rooms checked, and gather their impressions through a short satisfaction questionnaire. |
-
-## 6\. Review and Next Steps
-
-### Change made after reviewing the proposal
-
-- Before review: A campus study spot finder, as described in Section 2, that would help students find a place to study by showing both library seat availability and classroom availability. It was meant to address two problems at once: library tables held by bags left behind by absent students, and students not knowing which classrooms are vacant or when the next class begins. The selection rationale described the system as needing room schedules and seat status.  
-- After review: A schedule-based vacancy checker limited to CCS classrooms, plus a directory of study spots with no vacancy status.  
-- Reason: Library seats and open-air spots have no fixed schedule, so any availability shown for them would be a guess. Limiting vacancy to rooms with schedules, and to one building, keeps the information accurate and the prototype feasible within one semester.
-
-### Biggest remaining risk
-
-The CCS schedules may not match what actually happens in the rooms, because of cancellations, makeup classes, and events. A room wrongly shown as free would cost users' trust after only a few bad trips. The team will respond by verifying a sample of rooms against the app before the usability test and by letting users report a room as occupied.
-
-### Three unanswered questions
-
-1. Are students officially allowed to use vacant classrooms for studying, and under what conditions?  
-2. How widespread is the problem, and how do students currently look for study spots?  
-3. ‎Will students actually use the app instead of their usual method?
-
-## 7\. Member Contribution Record
-
-| Member | Ideas or analysis contributed | Drafting or review contribution |
-| :---- | :---- | :---- |
-| James Ralf P. Canonigo | I contributed three problem ideas in the brainstorming record: the lack of a lost-and-found at crowded Iligan events like the Diyandi festival, jeepneys skipping stops during rush hour, and the damaged Tambacan hanging bridge. Joined the team discussion in narrowing down to the study spot problem. | I drafted the Proposed Solution (Section 3\) and Section 6 (Review and Next Steps), including the change made after review, the biggest remaining risk, and the three unanswered questions. Reviewed the proposal for consistency between Sections 2, 3, and 5 and helped update Section 2 to match the narrowed scope. |
-| Calvyn Kent L. Adeva | I contributed four candidate problems drawn from my own experience, which were the coordination of donations during disasters, the missed water gallon and LPG deliveries, the lack of places to go in Iligan beyond the well-known tourist spots, and the absence of scam protection in the buying and selling of used electronics. I also helped narrow these down by ranking the problems per member, which let the team compare each person’s priorities, see which problems were most commonly favored, and settle on one that was both meaningful and feasible to address within the semester. | I drafted Section 5, which defines the initial scope, covering the intended users and setting, the in-scope and out-of-scope capabilities, the constraints, the assumptions and dependencies, and the success indicators. I also reviewed Sections 1 and 2 and helped revise them so that they matched what the instructions and guidelines asked for. |
-| Obrenah Z. Mendoza | I contributed five candidate problems in Section 1 stemming from observation and personal experiences.I also tried to participate, exchanging discourse when it comes to narrowing down the three shortlisted problems and I deliberately replied to necessary questions, discussions that needed my cooperation. | I drafted the Stakeholder List, which encompasses four relevant  stakeholder roles or groups we have identified that are involved in the core problem we are trying to solve, together with their underlying needs and questions the team wants to consult with them. I also helped in drafting ideas for fellow members who needed clarification in the proposed solution and initial scope sections. |
-| Kurt Renzo H. Azur | I contributed four problem ideas during brainstorming, each from everyday situations around campus and the city. After the group chose the problem shortlist, I contributed to the analysis of the three candidate problems according to their benefit to users, feasibility concerns, and the team’s access to stakeholders. I also checked each candidate against the project criteria: an identifiable affected group, a useful version prototype that can be finished within the semester, and a demonstration that does not require sensitive personal data. |  I compiled the group’s brainstorming record. The members submitted their ideas in Cebuano in different formats, and I summarized each one in English, and organized it into the required table. I later reviewed the “basis of the idea” column and revised each entry to state whether it came from an observation, a source, or an assumption, keeping the original points intact. For the candidate problem comparison and selection section, I drafted the shortlist table, the selected problem statement, and the selection rationale, then revised the rationale against the criteria provided for the proposal. |
-
-## 8\. References
-
-Cullen, E. (2026, February 3). How to ask open-ended questions: 25 examples. *Mentimeter*. https\://www\.mentimeter.com/blog/business/open-ended-questions  
-M, T. (n.d.). *Software development stakeholders: Complete list for software projects*. stakeholdermap.com. https\://www\.stakeholdermap.com/software-development-stakeholders.php\#quick-list
-
-## 9\. Team AI Use Declaration
-
-Select one option:
-
-- [ ] No generative AI tools were used by any member in preparing this submission.  
-- [x] One or more members used generative AI tools. Details are provided below.
-
-| Member who used AI | Tool | Purpose and sections assisted | How output was checked or revised |
-| :---- | :---- | :---- | :---- |
-| Obrenah Z. Mendoza | Google Gemini | Brainstormed roles and interview questions for Section 4 (Stakeholder List).  | Removed out-of-scope roles (e.g., library staff), , changed questions to ask about past experiences instead of future apps, and independently researched and added “Data Owner” role. |
-| Kurt Renzo H. Azur | Claude | Brainstorming Record and the Three Shortlisted Problems table. I used AI to summarize and humanize the generated output of the AI model (Opus 5.5). | I carefully reviewed each generated output, correcting the wrong formats and rewriting the output so that the transition between sentences and paragraphs is smooth. I also manually edited each output such that it follows and answers the guiding questions on how to write each section. |
-
-### Main prompts or interaction summary
-
-Obrenah Z. Mendoza 
-
-- Gemini was consulted in order to brainstorm terms of potential campus roles and draft interview questions for Section 4\. I reviewed the suggestions, removed out-of-scope groups, grounded the questions in past student experiences and also added the Data Owner role to address who approves access to the official room schedule datasets. 
-
-Kurt Renzo H. Azur
-
-- Claude was used to summarize and humanize the generated outputs of the AI model that I used. AI was utilized to review and rewrite the correct information regarding the summarized content. I manually edited each generated output such that it correctly follows and answers the guiding questions for each project proposal section.
-
-We acknowledge that AI-generated suggestions are not evidence of actual stakeholder interviews, feedback, or verified community needs. We remain responsible for the accuracy and explainability of this submission.
-
-## 10\. Team Confirmation
-
-We confirm that this document reflects our team's agreed-upon proposal. All members listed below reviewed the final version, and each member will upload the same Markdown file to their personal CSC181 repository.
-
-| Member | Reviewed final version |
-| :---- | :---- |
-| Calvyn Kent L. Adeva | Yes |
-| James Ralf P. Canonigo | Yes |
-| Obrenah Z. Mendoza | Yes |
-| Kurt Renzo H. Azur | Yes |
-
-## Submission Checklist
-
-- [x] Each member contributed at least two problem ideas.  
-- [x] Three candidate problems were compared.  
-- [x] The selection rationale is included.  
-- [x] The problem statement contains 100–150 words.  
-- [x] The proposed solution is included.  
-- [x] Relevant stakeholders and consultation questions are identified.  
-- [x] The scope contains 3–5 capabilities and at least three exclusions.  
-- [x] Constraints, assumptions, and success indicators are included.  
-- [x] A review change and three unanswered questions are documented.  
-- [x] Contributions, references, and AI use are declared.  
-- [x] All members reviewed the same final document.  
-- [x] Each member saved the file as `activities/project-proposal.md`.  
-- [x] Each member committed and pushed their copy to their personal repository.  
-- [x] Each member submitted their own GitHub file link through MOLE.
+1. In-app messaging or chat is excluded because repairmen are not required to use the app, and users can already contact each other through the messaging apps on their phones. The contact list only stores their details.  
+2. Native moRent, billing, and payment management, including contracts, deposits, and utility bills, are excluded to keep the pilot focused on repair tracking.  
+3. Repair cost and materials management, such as recording prices, receipts, reimbursements, or parts inventory, is excluded. “Parts purchased, waiting for installation” is only a status that tells the tenant a repair is not yet finished.  
+4. Repairman accounts, job acceptance, and automatic dispatch are excluded because the caretaker will contact repairmen manually.  
+5. Automated scheduling, reminders, and escalation of unresolved complaints are excluded because they require more development and testing time than one semester allows.  
+6. Integration with external systems, such as payment services or government and utility providers, is excluded be

@@ -403,7 +403,7 @@ Acceptance criteria:
 
 ### Use-case diagram : 
 
-### \!\[Use-case diagram\](backlog-images/use-case-diagram.png) 
+### ![Use-case diagram](backlog-images/use-case-diagram.png) 
 
 ### UC-01: Processing and Updating a Repair Request
 
